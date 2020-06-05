@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Webpack Starter Kit</title>
+    <meta charset="utf-8">
+    <title>Travel Tracker Final</title>
+    <link href="/css/base.scss">
   </head>
   <body>
     <h1>Webpack Starter Kit</h1>
+    <main class="login-page">
+      <form class="login-form">
+        <label for="username-field"></label>
+        <input type="text" id="username">
+        <label for="password-field"></label>
+        <input type="password" id="password">
+        <button type="button" class="login-button">Submit</button>
+      </form>
+    </main>
 
     <img src="./images/turing-logo.png" alt="turing logo" height="100px" width="100px">
 
-    <!-- Do not include the index.js or main.bundle.js file here - it is done automatically by the webpack server -->
+    <!-- Do not include the index.js or main.bundle.js file here - it is done
+    automatically by the webpack server -->
   </body>
 </html>
